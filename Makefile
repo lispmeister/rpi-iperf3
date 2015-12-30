@@ -12,7 +12,7 @@ push:
 	docker push $(DOCKER_IMAGE_NAME)
 
 test:
-	docker run --rm $(DOCKER_IMAGE_TAGNAME) echo"Success."
+	docker run --rm $(DOCKER_IMAGE_TAGNAME) echo "Success."
 
 version:
 	docker run --rm $(DOCKER_IMAGE_TAGNAME) iperf3 --version
