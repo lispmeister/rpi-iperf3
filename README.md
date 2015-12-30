@@ -16,7 +16,7 @@ Run all the commands from within the project root directory.
 make build
 ```
 
-#### Run the Docker Image and get the version of the installed Python
+#### Run the Docker Image and get the version of the installed iPerf3
 ```bash
 make version
 ```
